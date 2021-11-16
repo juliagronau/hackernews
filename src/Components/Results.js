@@ -10,7 +10,7 @@ const Results = ({ query }) => {
   const indexOfLastArticle = currentPage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
   //const mockUpJSON = "./hackernews.json";
-  const url = `http://hn.algolia.com/api/v1/search?query=${query}&hitsPerPage=80`;
+  const url = `https://hn.algolia.com/api/v1/search?query=${query}&hitsPerPage=80`;
 
   // für Mockup JSON
   // useEffect(() => {
